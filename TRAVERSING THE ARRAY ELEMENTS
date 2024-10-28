@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+
+// int i; //declare
+// int j=12;// intialization;
+
+int main(){
+    int  arr[]={1,2,3,4,5};//static in initalization;
+
+    for(int i=0;i<5;i++){ // for traversing the array from index 0 to index 4....
+        cout<<arr[i]<<endl;
+    }
+}
+
+
